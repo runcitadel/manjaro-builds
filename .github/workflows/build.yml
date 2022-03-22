@@ -51,7 +51,7 @@ jobs:
           format: 'YY.MM'
       -
         id: image-build
-        uses: runcitadel/rootfs@master
+        uses: runcitadel/manjaro-rootfs@master
         with:
           device: ${{ matrix.device }}
           edition: ${{ matrix.edition }}
