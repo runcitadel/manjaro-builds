@@ -34,7 +34,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        DEVICE: [rpi4]
+        DEVICE: [rpi4, quartz64-a]
         #EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
         # We only need minimal builds normally, but Plasma may be useful to some users too
         EDITION: [kde-plasma,minimal]
